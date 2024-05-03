@@ -6,6 +6,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    text-decoration: none;
 }
 
 .logo-studio {
@@ -16,6 +17,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
+    text-decoration: none;
 }
 
 .link {
@@ -25,6 +27,10 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-decoration: none;
+}
+.link:hover {
+    background: #fff;
 }
 
 .kontakts {
@@ -34,6 +40,10 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-decoration: none;
+}
+.kontakts:hover {
+    background: #fff;
 }
 .effective-solution {
     width: 1440px;
@@ -60,7 +70,10 @@
         width: 169px;
         height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-        background: #4d5ae5;
+        background: #4d5ae5;        
+}
+.button:hover {
+    background: #4d5ae5;
 }
 .strategy-head {
     font-family: "Roboto", sans-serif;
@@ -155,6 +168,7 @@
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        text-decoration: none;
 }
 .footer-logo-studio {
     font-family: "Raleway", sans-serif;
@@ -164,6 +178,7 @@
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #f4f4fd;
+        text-decoration: none;
 }
 .footer-text {
     font-family: "Roboto", sans-serif;
