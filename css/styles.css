@@ -73,7 +73,7 @@ background-color: #4d5ae5;
 .button:hover {
     background-color: #404BBF;
 }
-.button:active {
+.button:focus {
     background-color: #404BBF;
 }
 .strategy-head {
@@ -139,7 +139,7 @@ background-color: #4d5ae5;
 }
 .portfolio-foto {
     background: url("path_to_image");
-    width: 360px;
+    width: 360;
         height: 300px;
 }
 .portfolio-fead {
@@ -199,12 +199,18 @@ background-color: #4d5ae5;
 .link-nav .link:hover {
     color: #404bbf ;
 }
-.link-nav .link:active {
+.link-nav .link:focus {
     color: #404bbf;
 }
 .kontakst-text .kontakts:hover {
     color: #404bbf;
 }
-.kontakst-text .kontakts:active {
+.kontakst-text .kontakts:focus {
     color: #404bbf;
+}
+.adress-tel-mail {
+    font-style: normal;
+}
+.our-team-all {
+    background-color: #ffffff;
 }
