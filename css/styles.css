@@ -54,26 +54,27 @@
     font-family: "Roboto", sans-serif;
     font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        
 }
 .button {
-    display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        flex-direction: row;
-        gap: 10px;
-    border-radius: 4px;
-        padding: 16px 32px;
-        width: 169px;
-        height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-        background: #4d5ae5;        
+font-family: "Roboto",sans-serif ;
+font-weight: 500;
+font-size: 16px;     
+line-height: 1.5; 
+letter-spacing: 0.04em;
+color: #ffffff;
+cursor: pointer;
+background-color: #4d5ae5;
 }
 .button:hover {
-    background: #4d5ae5;
+    background-color: #404BBF;
+}
+.button:active {
+    background-color: #404BBF;
 }
 .strategy-head {
     font-family: "Roboto", sans-serif;
@@ -99,15 +100,16 @@
     font-family: "Roboto", sans-serif;
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 .our-team-foto {
-    background: url("path_to_image");
     width: 264px;
         height: 260px;
+        background-color: #FFFFFF;
 }
 .our-team-foto-name {
     font-family: "Roboto", sans-serif;
@@ -129,10 +131,11 @@
     font-family: "Roboto", sans-serif;
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 .portfolio-foto {
     background: url("path_to_image");
@@ -164,7 +167,7 @@
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
@@ -187,4 +190,21 @@
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+}
+.body-text {
+    font-family: "Roboto", sans-serif;
+        color:#434455;
+        background-color: #ffffff;
+}
+.link-nav .link:hover {
+    color: #404bbf ;
+}
+.link-nav .link:active {
+    color: #404bbf;
+}
+.kontakst-text .kontakts:hover {
+    color: #404bbf;
+}
+.kontakst-text .kontakts:active {
+    color: #404bbf;
 }
