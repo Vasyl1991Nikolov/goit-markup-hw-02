@@ -46,8 +46,6 @@
     background: #fff;
 }
 .effective-solution {
-    width: 1440px;
-        height: 600px;
         background: #2e2f42;
 }
 .name-section-one {
@@ -107,8 +105,7 @@ background-color: #4d5ae5;
         text-transform: capitalize;
 }
 .our-team-foto {
-    width: 264px;
-        height: 260px;
+
         background-color: #FFFFFF;
 }
 .our-team-foto-name {
@@ -139,8 +136,7 @@ background-color: #4d5ae5;
 }
 .portfolio-foto {
     background: url("path_to_image");
-    width: 360;
-        height: 300px;
+
 }
 .portfolio-fead {
     font-family: "Roboto", sans-serif;
@@ -160,8 +156,7 @@ background-color: #4d5ae5;
 }
 .footer-main {
     background: #2e2f42;
-    width: 1440px;
-        height: 312px;
+
 }
 .footer-logo-web {
     font-family: "Raleway", sans-serif;
