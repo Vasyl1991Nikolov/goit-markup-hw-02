@@ -212,3 +212,6 @@ background-color: #4d5ae5;
     background-color: #ffffff;
     text-decoration: none;
 }
+ul {
+    list-style: none;
+}
